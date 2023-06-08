@@ -5,22 +5,57 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>Primera Clase</title>
+        <title>TechShop</title>
         <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>
-            <h1 style="text-align: center; background-color: black; color: #ffffff">Home</h1>
-            <hr/>
-            <h2>Página Inicial</h2>
-        </div>
-        <div style="text-align: center">
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit curae euismod, fringilla dignissim integer in tempus ullamcorper maecenas potenti. Eleifend felis bibendum mattis eros mus quam non pharetra ad euismod, nec congue sem faucibus porttitor lectus platea commodo cubilia, dignissim praesent tristique leo fermentum condimentum curae vitae pretium. Feugiat convallis nunc aliquam ad habitant dignissim habitasse rutrum at hac, vel ligula volutpat vulputate dui praesent natoque iaculis per, erat nostra congue mus ornare integer etiam tempor class. Accumsan purus dui eu a euismod dictum suspendisse, magnis cubilia sem porttitor litora inceptos tortor rhoncus, aliquam pretium tempor per aptent viverra.</p>
-
-            <p>Senectus quam magna mattis platea tempor posuere metus, natoque phasellus purus dignissim feugiat. Dignissim libero posuere suspendisse non diam tempus mattis tristique sem inceptos integer, in ac neque fusce cubilia porttitor netus dapibus pulvinar class tortor, phasellus blandit cursus congue himenaeos scelerisque lacus ultrices malesuada quam. Neque ante ullamcorper magnis semper tempor dui conubia, malesuada suspendisse potenti erat nostra rutrum, felis metus sagittis porta diam senectus.</p>
-
-            <p>Nec nunc integer nullam proin primis scelerisque id taciti, non penatibus cubilia purus ultrices platea magnis, curae aenean a ornare feugiat nibh lectus. Sagittis pharetra conubia urna quisque viverra justo elementum ultricies, neque cras metus vulputate mus curae eget quis, tristique scelerisque montes cubilia ullamcorper mi mollis. Leo quisque eget elementum eu a natoque maecenas aptent ac ridiculus inceptos scelerisque, hendrerit ullamcorper curabitur vulputate nullam ad nisi pharetra suspendisse imperdiet euismod tempus, himenaeos tincidunt turpis convallis risus est bibendum parturient non donec dui.</p>
-        </div>
-        <a href="http://localhost/ejemplo2.html"> ver siguiente ejemplo</a>
+        <header class="encabezado">
+            <h1 id="logo">TechShop</h1>
+            <nav>
+                <a href="ejemplo5.html">&triangleleft;</a>
+                <a href="index.html">Inicio</a>
+                <a href="ejemplo2.html">&triangleright;</a>
+            </nav>
+        </header>
+        <aside class="lateral">
+            <div>
+                <h2>Home</h2>
+                <hr/>
+                <h3>Página Inicial</h3>
+            </div>
+        </aside>
+        <section class="contenido">
+            <h2>Textos</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit curae euismod, <span class="aviso">fringilla dignissim integer in tempus</span> ullamcorper maecenas potenti. Eleifend felis bibendum mattis eros mus quam non pharetra ad euismod, nec congue sem faucibus porttitor lectus platea commodo cubilia, dignissim praesent tristique leo fermentum condimentum curae vitae pretium. Feugiat convallis nunc aliquam ad habitant dignissim habitasse rutrum at hac, vel ligula volutpat vulputate dui praesent natoque iaculis per, erat nostra congue mus ornare integer etiam tempor class. Accumsan purus dui eu a euismod dictum suspendisse, magnis cubilia sem porttitor litora inceptos tortor rhoncus, aliquam pretium tempor per aptent viverra.</p>
+            </article>
+            <article>
+                <p>Senectus quam magna mattis platea tempor posuere metus, natoque phasellus purus dignissim feugiat. Dignissim libero posuere suspendisse non diam tempus mattis tristique sem inceptos integer, in ac neque fusce cubilia porttitor netus dapibus pulvinar class tortor, phasellus blandit cursus congue himenaeos scelerisque lacus ultrices malesuada quam. Neque ante ullamcorper magnis semper tempor dui conubia, malesuada suspendisse potenti erat nostra rutrum, felis metus sagittis porta diam senectus.</p>
+                <figure>
+                    <img src="img/lamamota.jpeg" alt="lamamota" width="300" height="200"/>
+                    <figcaption>La marmota</figcaption>
+                </figure>
+            </article>
+            <article>
+                <p class="aviso">Nec nunc integer nullam proin primis scelerisque id taciti, non penatibus cubilia purus ultrices platea magnis, curae aenean a ornare feugiat nibh lectus. Sagittis pharetra conubia urna quisque viverra justo elementum ultricies, neque cras metus vulputate mus curae eget quis, tristique scelerisque montes cubilia ullamcorper mi mollis. Leo quisque eget elementum eu a natoque maecenas aptent ac ridiculus inceptos scelerisque, hendrerit ullamcorper curabitur vulputate nullam ad nisi pharetra suspendisse imperdiet euismod tempus, himenaeos tincidunt turpis convallis risus est bibendum parturient non donec dui.</p>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit curae euismod, <span class="aviso">fringilla dignissim integer in tempus</span> ullamcorper maecenas potenti. Eleifend felis bibendum mattis eros mus quam non pharetra ad euismod, nec congue sem faucibus porttitor lectus platea commodo cubilia, dignissim praesent tristique leo fermentum condimentum curae vitae pretium. Feugiat convallis nunc aliquam ad habitant dignissim habitasse rutrum at hac, vel ligula volutpat vulputate dui praesent natoque iaculis per, erat nostra congue mus ornare integer etiam tempor class. Accumsan purus dui eu a euismod dictum suspendisse, magnis cubilia sem porttitor litora inceptos tortor rhoncus, aliquam pretium tempor per aptent viverra.</p>
+            </article>
+            <article>
+                <p>Senectus quam magna mattis platea tempor posuere metus, natoque phasellus purus dignissim feugiat. Dignissim libero posuere suspendisse non diam tempus mattis tristique sem inceptos integer, in ac neque fusce cubilia porttitor netus dapibus pulvinar class tortor, phasellus blandit cursus congue himenaeos scelerisque lacus ultrices malesuada quam. Neque ante ullamcorper magnis semper tempor dui conubia, malesuada suspendisse potenti erat nostra rutrum, felis metus sagittis porta diam senectus.</p>
+                <figure>
+                    <img src="img/lamamota.jpeg" alt="lamamota" width="300" height="200"/>
+                    <figcaption>La marmota</figcaption>
+                </figure>
+            </article>
+            <article>
+                <p class="aviso">Nec nunc integer nullam proin primis scelerisque id taciti, non penatibus cubilia purus ultrices platea magnis, curae aenean a ornare feugiat nibh lectus. Sagittis pharetra conubia urna quisque viverra justo elementum ultricies, neque cras metus vulputate mus curae eget quis, tristique scelerisque montes cubilia ullamcorper mi mollis. Leo quisque eget elementum eu a natoque maecenas aptent ac ridiculus inceptos scelerisque, hendrerit ullamcorper curabitur vulputate nullam ad nisi pharetra suspendisse imperdiet euismod tempus, himenaeos tincidunt turpis convallis risus est bibendum parturient non donec dui.</p>
+            </article>
+        </section>
+        <footer class="pie">
+            <p>Derechos Reservados &COPY; 2023</p>
+        </footer>
     </body>
 </html>
